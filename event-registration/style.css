@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(125deg, #6bc6d0, #0788be);
+    color: #fff;
+}
+
+/* Header Styles */
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+}
+
+header nav h3 {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+header nav h3 span {
+    font-weight: 300;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ffd700; /* Gold color on hover */
+}
+
+/* Event Container Styles */
+.event-container {
+    display: flex;
+    flex-direction: column;  /* Stack event boxes vertically */
+    gap: 20px;
+    padding: 20px;
+    margin: 0 5%;
+}
+
+/* Event Box Styles */
+.event-box {
+    background-color: #74d9e6;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.event-box img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.event-box .details {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.event-box .details h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.event-box .details p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.event-box button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.event-box button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
