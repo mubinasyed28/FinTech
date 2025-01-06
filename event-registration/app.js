@@ -2,7 +2,7 @@ const events = [
     {
         title: "Event 1",
         description: "Event details will be here 2-3 lines.",
-        image: "greenade.png",
+        image: "/img/greenade.png",
         date: "Date will be here",
         formLink: "https://forms.google.com/example1"
     },
@@ -49,7 +49,7 @@ events.forEach(event => {
         </div>
         <div>
             <p>${event.date}</p>
-            <button onclick="window.open('${event.formLink}', '_blank')">Submit</button>
+            <button onclick="window.open('${event.formLink}', '_blank')">Register</button>
         </div>
     `;
     eventContainer.appendChild(eventBox);
